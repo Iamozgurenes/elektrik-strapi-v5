@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_comp_slides",
+  "info": {
+    "displayName": "Slide"
+  },
+  "options": {},
+  "attributes": {
+    "baslik": {
+      "type": "string"
+    },
+    "aciklama": {
+      "type": "text"
+    }
+  }
+}

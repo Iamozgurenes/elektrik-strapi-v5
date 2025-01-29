@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "hizmetler_singles",
+  "info": {
+    "singularName": "hizmetler-single",
+    "pluralName": "hizmetler-singles",
+    "displayName": "Hizmetler Single"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "comp.banner"
+    }
+  }
+}

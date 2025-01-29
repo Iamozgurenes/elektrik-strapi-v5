@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_comp_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "baslik": {
+      "type": "string"
+    },
+    "aciklama": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

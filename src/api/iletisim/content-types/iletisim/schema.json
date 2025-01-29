@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "iletisims",
+  "info": {
+    "singularName": "iletisim",
+    "pluralName": "iletisims",
+    "displayName": "Iletisim"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "comp.banner"
+    }
+  }
+}

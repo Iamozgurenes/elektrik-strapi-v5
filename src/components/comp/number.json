@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_comp_numbers",
+  "info": {
+    "displayName": "Number"
+  },
+  "options": {},
+  "attributes": {
+    "baslik": {
+      "type": "string"
+    },
+    "sayi": {
+      "type": "biginteger"
+    }
+  }
+}

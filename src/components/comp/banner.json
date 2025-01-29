@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_comp_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "baslik": {
+      "type": "string"
+    },
+    "aciklama": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
