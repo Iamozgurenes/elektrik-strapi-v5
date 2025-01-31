@@ -21,6 +21,21 @@
       "type": "component",
       "repeatable": true,
       "component": "comp.card"
+    },
+    "mainSayac": {
+      "type": "component",
+      "repeatable": true,
+      "component": "comp.number"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "hizmetlers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hizmetler.hizmetler"
     }
   }
 }

@@ -509,6 +509,12 @@ export interface ApiAnasayfaAnasayfa extends Struct.SingleTypeSchema {
   attributes: {
     bannerSlide: Schema.Attribute.Component<'comp.slide', true>;
     kart: Schema.Attribute.Component<'comp.card', true>;
+    mainSayac: Schema.Attribute.Component<'comp.number', true>;
+    blogs: Schema.Attribute.Relation<'oneToMany', 'api::blog.blog'>;
+    hizmetlers: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::hizmetler.hizmetler'
+    >;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
